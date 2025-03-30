@@ -1,0 +1,41 @@
+/*
+:root{
+
+}
+*/
+div {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid;
+}
+/*
+div:hover {
+    background-color: aqua;
+}
+
+div:not(.not) {
+    background-color: red;
+}
+
+div:has(.not) {
+    background-color: red; has ainda nao é amplamente suportado em todos navegadores
+}
+
+div:nth-child(2) {
+    background-color: blue;
+}
+
+div::first-letter {
+    font-size: 50px;
+}
+
+div::before {
+    content: "";
+    height: 6px;
+    width: 2px;
+    background-color: red;
+    display: block;
+}
+*/

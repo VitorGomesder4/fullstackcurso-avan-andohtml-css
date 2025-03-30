@@ -1,0 +1,41 @@
+div {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+}
+
+/*
+section {
+    position: relative;
+}
+*/
+
+section {
+    border: 1px solid black;
+    overflow: scroll;
+    height: 100px;
+}
+
+.position {
+    background-color: red;
+
+    /*
+    position: relative;
+    left: 50%;
+    z-index: -1;
+    */
+
+    /*position: absolute;  nao respeita o flow da pagina 
+    left: 20px;
+    bottom: 20px;
+    z-index: -1;*/
+
+    /*position: fixed;*/
+    /*position: sticky; /*gruda ao overflow scroll mais proximo*/
+    /*
+    top: 5px;
+    z-index: -1;*/
+
+    /* inset aplica a todos lados sem precisar de top right left bottom*/
+}

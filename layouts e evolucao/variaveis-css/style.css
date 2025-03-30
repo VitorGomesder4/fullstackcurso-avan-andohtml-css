@@ -1,0 +1,32 @@
+:root {
+    --cordefundo: purple;
+}
+
+body {
+    background-color: var(--cordefundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div {
+    --cordefundo: red;
+    height: 30px;
+    width: 30px;
+    background-color: var(--cordefundo);
+}
+
+#div1 {
+    --cordefundo: white;
+    height: 50px;
+    width: 50px;
+    background-color: var(--cordefundo);
+}
+
+#span {
+    height: 20px;
+    width: 20px;
+    background-color: var(--cordefundo);
+}
