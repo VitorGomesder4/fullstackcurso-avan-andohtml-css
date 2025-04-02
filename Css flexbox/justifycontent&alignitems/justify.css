@@ -1,0 +1,14 @@
+:root {
+    --hue: 0;
+}
+
+.container {
+    border: solid;
+    display: flex;
+    justify-content: flex-start; /*justify é usado para posicionar os filhos na posição desejada */
+    flex-direction: row-reverse; /*o começo do eixo é invertido entao o começo ira ser na direita e o fim na esquerda */
+}
+
+.item {
+    background-color: hsl(var(--hue), 100%, 70%);
+}

@@ -1,0 +1,13 @@
+:root {
+    --hue: 0;
+}
+
+.container {
+    border: solid;
+    display: flex;
+    align-items: baseline;
+}
+
+.item {
+    background-color: hsl(var(--hue), 100%, 70%);
+}

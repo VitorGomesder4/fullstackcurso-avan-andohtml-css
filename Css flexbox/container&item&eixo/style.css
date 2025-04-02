@@ -1,0 +1,11 @@
+:root {
+    --hue: 0;
+}
+.container {
+    display: flex;
+    border: dashed royalblue;
+    flex-direction: column-reverse;
+}
+.item {
+    background-color: hsl(var(--hue), 100%, 70%);
+}
