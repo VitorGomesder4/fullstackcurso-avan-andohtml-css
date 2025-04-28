@@ -1,0 +1,21 @@
+/*
+#app {
+    display: grid;
+} Tudo na div app ira virar block
+*/
+
+.tabela {
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.tabela > div {
+    border: 1px solid;
+    border-color: aqua;
+}
+
+span {
+    border: 1px solid;
+    border-color: red;
+}
