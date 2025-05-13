@@ -1,0 +1,34 @@
+#app {
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    height: 60vh;
+}
+
+#app header{
+    background-color: aqua;
+    grid-column: 1/4;
+}
+
+#app main{
+    background-color: black;
+    grid-row: 2/5;
+    color: white;
+}
+
+
+#app aside{
+    background-color: thistle;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+#app footer{
+    background-color: crimson;
+    color: white;
+    grid-column: 2/4;
+}
+
+#app > * {
+    background-color: yellow;
+    border: solid black;
+}

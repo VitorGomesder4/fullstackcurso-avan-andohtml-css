@@ -1,0 +1,29 @@
+#app {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+    height: 50vh;
+}
+
+#app header {
+    grid-area: header;
+}
+
+#app main {
+    grid-area: main;
+}
+
+#app aside{
+    grid-area: aside;
+}
+
+#app footer{
+    grid-area: footer;
+}
+
+#app > * {
+    border: solid darkred;
+    background-color: aliceblue;
+}
